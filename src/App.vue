@@ -2,6 +2,7 @@
   <div class="app">
     <el-button @click="routerJump('/isCustomElement')">isCustomElement的bug</el-button>
     <el-button @click="routerJump('/switchTabs')">切换tabs产生的bug</el-button>
+    <el-button @click="routerJump('/test')">切换表格列引起的bug</el-button>
   </div>
   <router-view />
 </template>

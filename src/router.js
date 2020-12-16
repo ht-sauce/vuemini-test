@@ -9,6 +9,10 @@ const routes = [
     path: '/switchTabs',
     component: () => import('@/views/switchTabs'),
   },
+  {
+    path: '/test',
+    component: () => import('@/views/test'),
+  },
 ]
 
 const router = createRouter({
