@@ -20,6 +20,7 @@
         label="地址"
         width="100"
         :show-overflow-tooltip="true">
+
       </el-table-column>
     </el-table>
     <el-button type="primary" @click="dialogVisible = true">点击打开 Dialog</el-button>
