@@ -13,6 +13,10 @@ const routes = [
     path: '/test',
     component: () => import('@/views/test'),
   },
+  {
+    path: '/TableBug',
+    component: () => import('@/views/TableBug'),
+  },
 ]
 
 const router = createRouter({
