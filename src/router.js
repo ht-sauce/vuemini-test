@@ -17,6 +17,10 @@ const routes = [
     path: '/TableBug',
     component: () => import('@/views/TableBug'),
   },
+  {
+    path: '/tablebugTwo',
+    component: () => import('@/views/tablebugTwo'),
+  },
 ]
 
 const router = createRouter({

@@ -3,6 +3,12 @@ module.exports = {
     '@vue/cli-plugin-babel/preset'
   ],
   plugins: [
-    [require('@vue/babel-plugin-jsx'), { isCustomElement: tag => /^ion-/.test(tag) }],
+    [
+      'component',
+      {
+        libraryName: 'element-plus',
+        styleLibraryName: 'theme-chalk',
+      },
+    ],
   ],
 }

@@ -75,13 +75,14 @@ export default {
     }
 
     function elSwichData(type) {
-      if (type === 1) data.columns = []
+      if (type === 1) {
+        data.columns = []
+      }
       if (type === 2) data.columns2 =  [
         {prop: 'date', label: '日期', width: '180'},
         {prop: 'name', label: '姓名', width: '180'},
         {prop: 'address', label: '地址', width: '300'},
       ]
-      console.log('打印列结果', data.columns)
     }
 
     return {
